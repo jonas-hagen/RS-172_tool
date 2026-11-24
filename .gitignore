@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+# downloaded measurement data
+*.csv
+*.json
+!docs/**/*.json
+.claude/settings.local.json
+# local notes, not part of the repo
+scratch/
